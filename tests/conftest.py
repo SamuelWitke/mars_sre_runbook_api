@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from mars_sre_runbook_api import create_app
+from mars_sre_runbook_api.ext.commands import populate_db
+from mars_sre_runbook_api.ext.database import db
 
 
 @pytest.fixture(scope="session")
